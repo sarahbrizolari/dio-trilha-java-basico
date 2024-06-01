@@ -6,8 +6,8 @@ public class ContaTerminal {
         //Exibir as mensagens para o nosso usuário
 
         System.out.println("Por favor, digite seu nome completo: ");
-        String nome = scanner.nextLine();
-        nome = nome.toUpperCase();
+        String nomeCliente = scanner.nextLine();
+        nomeCliente = nomeCliente.toUpperCase();
 
         String numeroAgencia;
         while(true) {
@@ -26,7 +26,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite a quantidade do saldo que deseja sacar: ");
         double saldo = scanner.nextDouble();
 
-        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " 
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " 
         + numeroAgencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está desponivel para saque");
 
         }
